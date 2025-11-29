@@ -8,3 +8,15 @@
     @apply bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-50;
   }
 }
+
+.task-list {
+  @apply p-4;
+}
+
+.kanban-board {
+  @apply flex flex-col;
+}
+
+.task-item {
+  @apply bg-gray-100 p-2 rounded-md shadow;
+}
